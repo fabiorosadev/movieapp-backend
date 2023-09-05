@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Entities\Users\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Entities\Users\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Entities\Users\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
+      <PackageReference Include="FluentValidation" Version="11.7.1" />
+
+      <PackageReference Include="Serilog" Version="3.0.2-dev-02044" />
+
+
+
+
+
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+</Project>
