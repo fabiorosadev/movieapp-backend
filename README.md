@@ -2,6 +2,26 @@
 
 This is a WebAPI project with a hexagonal clean architecture implementation to a small use case of a movie registration app, detailed below.
 
+### Thought Process:
+- Define a use case
+- Define the entities and tables
+- Define the endpoints (CRUD for Movies and Users)
+- Define the project folder structure
+- Create project
+- Create the entities
+- Create the database adapter
+- Create the host webapi
+- Create the repositories
+- Create the use cases (with TDD)
+- Create the controllers (with TDD)
+- Define the auth model
+- Create the auth service (custom JWT)
+- Create the auth controller
+- Create the auth middleware
+- Create the auth filter
+- Create the Error Handler middleware
+
+
 ### Use Case:
 ![MovieApp-UseCase.png](Images%2FMovieApp-UseCase.png)
 
