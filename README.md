@@ -37,11 +37,11 @@ This is a WebAPI project with a hexagonal clean architecture implementation to a
     - Docker Desktop
 - Clone this repository
 - Open the solution in your IDE
-- Run the project
-- In the first time that you run the project, the tables will be created on database
-- The default database name in the connection string is `MovieApp`
+- The default database name in the connection string is `MovieApp` (you need create this database in your SQL Server)
 - If you want to change the database name, you can change the connection string in the `appsettings.json` file
 - If you want to use Docker, you can run the following command in the root of the project: `docker-compose up -d`
+- Run the project
+- In the first time that you run the project, the tables will be created on database
 - Open the Swagger UI in your browser: https://localhost:5001/swagger/index.html
 - Use the endpoints to test the application
 - Default admin user credentials (created in the first time that you run the project)
