@@ -20,12 +20,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Host.WebApi", "Mov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApp.Host.WebApi.Tests", "MovieApp.Host.WebApi.Tests\MovieApp.Host.WebApi.Tests.csproj", "{32223FC2-3DC4-4D6A-A680-D01219FBD714}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{26F2E79C-9E11-45CE-A34C-3BE4927F6137}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Downloads\MovieApp-UseCase.png = ..\..\Downloads\MovieApp-UseCase.png
-		..\..\Downloads\MovieApp-Database.png = ..\..\Downloads\MovieApp-Database.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

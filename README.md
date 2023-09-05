@@ -3,10 +3,10 @@
 This is a WebAPI project with a hexagonal clean architecture implementation to a small use case of a movie registration app, detailed below.
 
 ### Use Case:
-![MovieApp-UseCase.png](..%2F..%2FDownloads%2FMovieApp-UseCase.png)
+![MovieApp-UseCase.png](Images%2FMovieApp-UseCase.png)
 
 ### Database:
-![MovieApp-Database.png](..%2F..%2FDownloads%2FMovieApp-Database.png)
+![MovieApp-Database.png](Images%2FMovieApp-Database.png)
 
 ### Getting Started:
  
